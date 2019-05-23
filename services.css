@@ -1,0 +1,131 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.pew{
+    position: fixed;
+    width: 100%;
+    font-weight: 700;
+    font-family: 'Baloo Bhai', cursive; 
+    text-decoration: none;
+}
+.menu1{
+    background-color: #003366;
+    text-align: right;
+    height : 2.5vw;
+}
+#image{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#image3{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+.menu2{
+    background-color: #66ff99;
+    text-align: right;
+    height : 3.5vw;
+}
+.menu1 ul li{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.menu2 ul li{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.menu1 a{
+    text-decoration: none;
+    color: #141414;
+}
+.menu2 a{
+    text-decoration: none;
+    color: #0a0a0a;
+    padding-top: 5px;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+    padding-top: 1%;
+}
+.menu2 ul li :hover{
+    background-color: #66ff99;
+    border-radius: 2px;
+}
+.menu1 ul li a{
+    width: 15px;
+    padding-top: 10px;
+    margin: 10px;
+}
+.menu2 ul li a{
+    width: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.sub_menu{
+    display: none;
+}
+.menu2 ul :hover .sub_menu{
+    display: block;
+    position: absolute;
+
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.menu2 ul :hover .sub_menu ul{
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    width: 185px;
+}
+.menu2 ul :hover .sub_menu ul{
+    background-color: #66ff99;
+}
+.menu2 ul :hover .sub_menu ul li {
+    display: block;
+    width: 165px;
+    border-radius: 5px;
+    background-color: #66ff99;
+}
+.menu2 ul :hover .sub_menu ul li a{
+    display: block;
+    border-radius: 5px;
+    width:125px;
+    border-bottom: double;
+}
+.imag1{
+    padding-top: 10%;
+    width: 100%;
+}
+.containers{
+    text-align: center;
+    height: 100%
+}
+.img2{
+    margin-left: auto;
+    margin-right: auto;;
+    height: 400px
+}
+.Division1{
+    float: left;
+     width: 27%;
+     height: 69%;
+     border: 2px solid #000000;
+     margin-left: 20%;
+ }
+ .Division2{
+    float: left;
+     width: 27%;
+     height: 69%;
+     border: 2px solid #000000;
+     margin-left: 5%;
+ }
+ .img3{
+     padding-top: 5%;
+     width: 100%;
+ }

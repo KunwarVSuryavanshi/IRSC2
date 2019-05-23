@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home Page
+        </title>
+        <link type="text/css" rel="stylesheet" href="home.css">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            var navi = document.getElementByClassName("pew");
+            window.onscroll = function(){
+                if(window.pageYOffset >100){
+                    navi.style.position = "fixed";
+                    navi.style.top = 0;
+                }
+                else{
+                    box.style.position = "absolute";
+                    bo.style.top = 100;
+                }
+    
+            }
+            function doFunction(){
+                
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="pew" id="kip">
+        <nav class="menu1">      
+            <div>
+                <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true" id="image"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true" id="image"></i></a>
+                <a ><i class="fa fa-twitter" aria-hidden="true" id="image3"></i></a>
+                <ul>
+                    <li><a style="text-decoration:none">Road Side Assistance Call 1800 1900 1213</a></li>
+                    <li><a href="#"> Login</a></li>
+                    <li><a href="#"> Register</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="menu2">
+            <ul>
+                <li><a href="#kip" class="present" style="text-decoration:none"> HOME</a></li>
+                <li><a href="#" style="text-decoration:none">ABOUT</a></li>
+                <li><a href="#" style="text-decoration:none">PACKAGES</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <div class="sub_menu">
+                        <ul>
+                            <li><a href="./services.html">OnCall services</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#" style="text-decoration:none">iSAFE Home</a></li>
+                <li><a href="#" style="text-decoration:none">Blog</a></li>
+                <li><a href="#" style="text-decoration:none">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+        <div id="for_ima">
+            <figure>
+                <img class="img1" src="./am1.jpg">
+                <img class="img1" src="./am2.jpg">
+                <img class="img1" src="./am5.jpg">
+                <img class="img1" src="./am4.jpg">
+                <img class="img1" src="./am5.jpg">
+            </figure>
+        </div>
+        <div>
+            <img  class= "imag2" src="./below.png">
+        </div>
+        <div>
+            <img  class= "imag3" src="./below (2).png">
+        </div>
+        <div>
+            <h1 class="ab_img">Why iSafe Assist</h1>
+            <img  class= "img2" src="./below (3).png">
+            <img  class= "img2" src="./below (4).png">
+            <div class="containers">
+                <div class="Division1">                
+                    <div class="text-block">
+                        <img class="img2"id="pin1" src="img.jpg" alt="Car" style="width:100%;">
+                        <input id="clickMe" type="button" style="height:50px; width:150px"  value="KNOW MORE" onclick= "location.href='services.html'" />
+                    </div>
+                    
+                </div>
+                <div class="Division2">
+                    <div class="text-block">
+                        <img class="img2" id="pin2" src="img.jpg" alt="car" style="width:100%;">
+                        <input id="clickMe" type="button" style="height:50px; width:150px"  value="KNOW MORE" onclick="location.href='services.html'" /> 
+                    </div>
+                </div>    
+            <img  class= "img3" src="./below (5).png">
+        </div>        
+    </body>
+</html>
