@@ -1,2 +1,2 @@
 # IRSC2
-Demo Website created for Indian Road Safety campaign
+Dummy Website created for Indian Road Safety campaign
